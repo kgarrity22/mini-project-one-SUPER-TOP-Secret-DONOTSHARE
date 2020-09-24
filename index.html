@@ -19,6 +19,7 @@
         </div>
 
         <div id="Bads">
+
             <img src="assets/Play_Ball!.png" alt="Play Ball bad vis" width="300" height="600">
             <p>
                 This original version of this visualization is meant to display the rankings of Major League Baseball teams for each statistic.  Using line and point marks the visualization uses the channel of length for its marks as a way to display these rankings.  The longer the line the higher the team is ranked for that specific stat.  The visualization compares 10 stats for hitting, and 10 stats for pitching, displaying these lines in a circle.  The pitching and hitting stats are separated based on color, with blue being hitting and pink being pitching -- taking use of a color  channel.  While the visualization may be interesting to look at, it is actually ineffective in truly comparing teams.  By looking at the visualization it is hard to compare teams side by side.  Even the teams are sorted alphabetically rather than by winning percentage.  
@@ -31,6 +32,31 @@
                 Our new visualization makes it easier to make direct comparisons between teams.  By looking at the area of the graph we can determine which team has the best statistics.  For example in our hitting chart we see that Team 1 has a higher area than Team 2, indicating that Team 1 ranks higher in its statistics and theoretically is the better team.
                 </p>
                 
+
+            <img src="assests/bad-forecast.jpg" alt="Bad Forecast Visualization">
+            <p> We chose this as one of our examples of bad design for a number of reasons but primarily because a lot of the data
+            encoded in this chart is misleading. This visualization is intended to reach anybody watching the news and convey
+            information about the weather during the current day. It attempts to do so by encoding the weather data in a bar chart,
+            using both line marks and spatial regions to encode the temperature and labeled icons to convey the percentage chance of
+            rain. For example, the chart is labeled “Hour by Hour Forecast.” However, when you look at the labels on the x-axis, it
+            is clear that bars are labeled in two hour increments rather than hour increments. Additionally, there is no y-axis so
+            it is not possible to know what attribute the creators of this chart intended to encode with the bar height. However,
+            the display suggests that they intended to encode the temperature data with the line mark at the bar height. If this is
+            what the intention was, then the graph is very misleading because while the first two bars are labeled with the same
+            temperature, they have different heights. Furthermore, the second and third bar are the same height, but different
+            temperatures. The last two bars in the chart predict temperatures of 51º and 50º respectively, but the bar showing 50º
+            is shorter than the bar showing 51º. Another issue with this chart is that both the bars for the 11 and the 1pm hours
+            are not labeled. Similarly, only some of the bars have predictions for oncoming rain. </p>
+            <img src="assets/BadCOVID.png" alt="Bad COVID-19 Visualization">
+            
+            <p> The original design as seen above is not an effective method of representing any sort of COVID-19 data. 
+                Alabama Public Health released this graphic towards the middle of May, and it is clear to see they do not 
+                utilize any channels other than colors. The colors are each assigned to a separate category, with red attached to 
+                “Laboratory-confirmed cases”, green attached to “Total hospitalizations”, orange attached to “Total Tested”, and blue
+                 attached to “COVID-19 Deaths”. The data of the visualization is also completely unclear, as we do not know if these numbers apply 
+                 to the entire Alabama population or per a certain subset of the population. 
+            </p>
+
         </div>
 
 
@@ -41,3 +67,4 @@
 
 
 </html>
+
