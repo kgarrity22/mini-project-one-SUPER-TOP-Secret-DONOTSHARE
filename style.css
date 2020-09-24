@@ -17,7 +17,11 @@
   background-color: #ddd;
   color: black;
 }
-
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 10px;
+  text-align: left;
+}
 .topnav a.active {
     background-color: #4f61b1;
     color: white;
