@@ -30,9 +30,14 @@ h1{
     margin: 10px;
 }
 
+h2{
+  color: rgb(125, 110, 253);
+  font-family: 'Staatliches', cursive;
+  padding: 10px;
+  margin: 10px;
+}
 
-<<<<<<< HEAD
-=======
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
   url("hero-image.png");
@@ -57,8 +62,5 @@ h1{
   transform: translate(-50%, -50%);
   color:white;
   font-size: 100px;
-  font-family: Gill Sans;
-
-
+  font-family: 'Staatliches', cursive;
 }
->>>>>>> 6456646ec131f4cb351f993e50b343e34f4da4b5
