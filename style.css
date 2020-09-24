@@ -1,3 +1,4 @@
+
 .topnav {
     background-color: rgb(159, 179, 245);
     overflow: hidden;
@@ -30,6 +31,8 @@ h1{
 }
 
 
+<<<<<<< HEAD
+=======
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
   url("hero-image.png");
@@ -58,3 +61,4 @@ h1{
 
 
 }
+>>>>>>> 6456646ec131f4cb351f993e50b343e34f4da4b5
