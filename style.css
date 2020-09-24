@@ -1,0 +1,30 @@
+.topnav {
+    background-color: rgb(159, 179, 245);
+    overflow: hidden;
+  }
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }  
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #4f61b1;
+    color: white;
+  }
+
+h1{
+    color: rgb(73, 54, 248);
+    font-family: 'Staatliches', cursive;
+    padding: 10px;
+    margin: 10px;
+}
