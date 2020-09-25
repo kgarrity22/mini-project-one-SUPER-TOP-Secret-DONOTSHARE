@@ -125,3 +125,72 @@ h2{
   font-family: 'Staatliches', cursive;
 }
 
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  height: 1000px;;
+  margin-bottom: 100px;
+  border:1px solid #4f61b1;
+  background-color: lavender;
+}
+
+
+
+.text-box {
+  padding: 10px;;
+  height: 400px;
+  width: 100%;
+  overflow: auto;
+  scrollbar-base-color: #4f61b1;
+  margin-bottom: 0px;
+
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+}
+
+.column-image {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  height: 670px;
+  margin-bottom: 100px;
+  border:1px solid #4f61b1;
+  background-color: lavender;
+  
+
+}
+
+.column-image img {
+  width: 100%;
+  height: auto;
+}
+
+.column-2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 750px;;
+  margin-bottom: 100px;
+  border:1px solid #4f61b1;
+  background-color: lavender;
+
+}
+
+.column-2 img {
+  width: 100%;
+  height: auto;
+}
+
+#play-ball {
+  height: 600px;
+  width: 250px;
+  margin-left: 200px;
+}
+
+#play-ball-pics .column-2{
+    height: 1000px;
+}
