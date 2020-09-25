@@ -11,7 +11,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 23px;
   }  
 .topnav a:hover {
   background-color: rgb(255, 255, 255);
@@ -27,7 +27,10 @@ p {
     background-color: #4f61b1;
     color: white;
   }
-
+  a:visited {color:rgb(125, 110, 253);}
+  a { 
+      color: rgb(125, 110, 253); 
+   } 
 h1{
     color: rgb(73, 54, 248);
     font-family: 'Staatliches', cursive;
@@ -194,12 +197,41 @@ h2{
   background-color: lavender;
 
 }
-
 .column-2 img {
   width: 100%;
   height: auto;
 }
 
+.column-3 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 1000px;;
+  margin-bottom: 100px;
+  border:1px solid #4f61b1;
+  background-color: lavender;
+
+}
+.column-3 img {
+  width: 80%;
+  height: 750px;
+  margin-left: 50px;
+}
+.column-4 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 1000px;;
+  margin-bottom: 100px;
+  border:1px solid #4f61b1;
+  background-color: lavender;
+
+}
+.column-4 img {
+  width: 80%;
+  height: 750px;
+  margin-left: 50px;
+}
 #play-ball {
   height: 600px;
   width: 250px;
