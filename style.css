@@ -133,7 +133,8 @@ h2{
   height: 1000px;;
   margin-bottom: 100px;
   border:1px solid #4f61b1;
-  background-color: lavender;
+  background-color: lavender;  
+  margin-left: 3.5px;
 }
 
 .text-box {
