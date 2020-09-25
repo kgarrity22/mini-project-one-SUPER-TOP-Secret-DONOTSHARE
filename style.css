@@ -19,7 +19,8 @@
 }
 p {
   font-family: 'Roboto Condensed', sans-serif;
-  padding: 10px;
+  padding: 5px;
+  margin: 5px;
   text-align: left;
 }
 .topnav a.active {
@@ -128,23 +129,31 @@ h2{
 .column {
   float: left;
   width: 33%;
-  padding: 10px;
+  padding: 20px 20px 5px;
   height: 1000px;;
   margin-bottom: 100px;
   border:1px solid #4f61b1;
   background-color: lavender;
 }
 
-
-
 .text-box {
-  padding: 10px;;
+  padding: 5px;
   height: 400px;
   width: 100%;
   overflow: auto;
   scrollbar-base-color: #4f61b1;
   margin-bottom: 0px;
 
+}
+
+#goodVisTxt1 {
+  height: 517px;
+}
+#goodVisTxt2 {
+  height: fit-content;
+}
+#goodVisTxt3 {
+  height: fit-content;
 }
 
 .column img {
