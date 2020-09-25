@@ -11,22 +11,26 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 23px;
   }  
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgb(255, 255, 255);
   color: black;
 }
 p {
   font-family: 'Roboto Condensed', sans-serif;
-  padding: 10px;
+  padding: 5px;
+  margin: 5px;
   text-align: left;
 }
 .topnav a.active {
     background-color: #4f61b1;
     color: white;
   }
-
+  a:visited {color:rgb(125, 110, 253);}
+  a { 
+      color: rgb(125, 110, 253); 
+   } 
 h1{
     color: rgb(73, 54, 248);
     font-family: 'Staatliches', cursive;
@@ -84,7 +88,7 @@ h2{
   width: 700px;
   height: 700px;
   border-radius: 10px;
-  background: #eee;
+  background: white;
   transform-origin: center center;
   transform: scale(1);
   transition: transform 0.5s;
@@ -128,23 +132,32 @@ h2{
 .column {
   float: left;
   width: 33%;
-  padding: 10px;
+  padding: 20px 20px 5px;
   height: 1000px;;
   margin-bottom: 100px;
   border:1px solid #4f61b1;
-  background-color: lavender;
+  background-color: lavender;  
+  margin-left: 3.5px;
 }
 
-
-
 .text-box {
-  padding: 10px;;
+  padding: 5px;
   height: 400px;
   width: 100%;
   overflow: auto;
   scrollbar-base-color: #4f61b1;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 
+}
+
+#goodVisTxt1 {
+  height: 517px;
+}
+#goodVisTxt2 {
+  height: fit-content;
+}
+#goodVisTxt3 {
+  height: fit-content;
 }
 
 .column img {
@@ -156,14 +169,19 @@ h2{
   float: left;
   width: 33%;
   padding: 10px;
-  height: 670px;
-  margin-bottom: 100px;
+  height: 620px;
+  margin-bottom: 50px;
   border:1px solid #4f61b1;
   background-color: lavender;
   
 
 }
-
+.image2{
+  width:375px;
+  height: 350px;
+  margin-left: 200px;
+  margin-bottom: 150px;
+}
 .column-image img {
   width: 100%;
   height: auto;
@@ -179,12 +197,41 @@ h2{
   background-color: lavender;
 
 }
-
 .column-2 img {
   width: 100%;
   height: auto;
 }
 
+.column-3 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 1000px;;
+  margin-bottom: 100px;
+  border:1px solid #4f61b1;
+  background-color: lavender;
+
+}
+.column-3 img {
+  width: 80%;
+  height: 750px;
+  margin-left: 50px;
+}
+.column-4 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 1000px;;
+  margin-bottom: 100px;
+  border:1px solid #4f61b1;
+  background-color: lavender;
+
+}
+.column-4 img {
+  width: 80%;
+  height: 750px;
+  margin-left: 50px;
+}
 #play-ball {
   height: 600px;
   width: 250px;
@@ -192,5 +239,5 @@ h2{
 }
 
 #play-ball-pics .column-2{
-    height: 1000px;
+    height: 810px;
 }
