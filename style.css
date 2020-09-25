@@ -1,3 +1,4 @@
+
 .topnav {
     background-color: rgb(159, 179, 245);
     overflow: hidden;
@@ -16,7 +17,11 @@
   background-color: #ddd;
   color: black;
 }
-
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 10px;
+  text-align: left;
+}
 .topnav a.active {
     background-color: #4f61b1;
     color: white;
@@ -27,6 +32,13 @@ h1{
     font-family: 'Staatliches', cursive;
     padding: 10px;
     margin: 10px;
+}
+
+h2{
+  color: rgb(125, 110, 253);
+  font-family: 'Staatliches', cursive;
+  padding: 10px;
+  margin: 10px;
 }
 
 
@@ -56,7 +68,5 @@ h1{
   transform: translate(-50%, -50%);
   color:white;
   font-size: 100px;
-  font-family: Gill Sans;
-
-
+  font-family: 'Staatliches', cursive;
 }
