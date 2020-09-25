@@ -142,7 +142,7 @@ h2{
   width: 100%;
   overflow: auto;
   scrollbar-base-color: #4f61b1;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 
 }
 
@@ -165,14 +165,19 @@ h2{
   float: left;
   width: 33%;
   padding: 10px;
-  height: 670px;
-  margin-bottom: 100px;
+  height: 620px;
+  margin-bottom: 50px;
   border:1px solid #4f61b1;
   background-color: lavender;
   
 
 }
-
+.image2{
+  width:375px;
+  height: 350px;
+  margin-left: 200px;
+  margin-bottom: 150px;
+}
 .column-image img {
   width: 100%;
   height: auto;
@@ -201,5 +206,5 @@ h2{
 }
 
 #play-ball-pics .column-2{
-    height: 1000px;
+    height: 810px;
 }
